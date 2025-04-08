@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Ajout de ligne de credit</h1>
+    <form action="creditServlet" method="post">
+        <input type="text" name="libelle" placeholder="Libelle">
+        <input type="number" name="montant" placeholder="Montant">
+        <p>Date debut : <input type="date" name="datedebut"></p>
+        <p>Date fin : <input type="date" name="datefin"></p>
+        <button type="submit">Valider</button>
+    </form>
+
+    <p><a href="formDepense">Ajouter une ligne de depense</a></p>
+    <p><a href="dashboard">Voir le Dashboard</a></p>
+    <p><a href="depenseServlet">Voir la liste des credits et des depenses</a></p>
+</body>
+</html>
